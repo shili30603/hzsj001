@@ -1,0 +1,59 @@
+{
+  "IDCInspectionReport": {
+    "BasicEnvironment": {
+      "Location": "广东省广州市南沙区珠江街道前锋社区珠江大道430号-3",
+      "ContactPerson": {
+        "Name": "高延勇",
+        "Phone": "13786178830"
+      },
+      "RoomLayout": "见附件图",
+      "PowerSupply": {
+        "Type": "双路UPS 220V交流供电",
+        "PDU": "19位10A插孔+6位16A插孔, 总插孔数为25位",
+        "Routes": "AB路2组"
+      },
+      "CabinetDetails": "见附件图",
+      "CoolingConditions": "满足全量机柜6KW满跑制冷",
+      "AverageTemperatureAndHumidity": {
+        "Temperature": "20.9度",
+        "Humidity": "62.9%"
+      },
+      "Photos": {
+        "CableTray": "见附件图",
+        "CabinetInterior": "见附件图"
+      }
+    },
+    "InternalNetworkArchitecture": {
+      "PublicNetworkExit": {
+        "TelecomBandwidth": "200G",
+        "UnicomBandwidth": "400G",
+        "MobileBandwidth": "100G",
+        "BGPCapacity": "50G"
+      },
+      "BackboneLink": "双链路双接入方式",
+      "LowLatency": "1ms直达运营商骨干网节点",
+      "NetworkRedundancy": "2个物理隔离接入间，2个异路由光缆进线",
+      "RoutingProtocol": "bgp、isis、bfd"
+    },
+    "ExternalEnvironment": {
+      "MaintenanceStaff": "全为自有员工",
+      "GoodsReception": "可存放货物，有卸货平台，机房可协助收货",
+      "Transportation": "机房周围交通便利，地铁站，高铁站均在附近",
+      "ConstructionTeam": "不提供"
+    },
+    "CabinetLayout": "见附件图",
+    "CabinetPhotos": [
+      {
+        "Type": "机柜内部上侧",
+        "Format": "PNG",
+        "Dimensions": "1269x829"
+      },
+      {
+        "Type": "机柜上部走线槽",
+        "Format": "JPEG",
+        "Dimensions": "440x596"
+      }
+      // 更多图片信息...
+    ]
+  }
+}
